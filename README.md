@@ -4,7 +4,7 @@ Exemplos de cálculos matematicos
 * Tecnologias: Matlab R2014A
 * Resumo: Cálculos de limites, derivadas, integrais ...
 * Linguagens: 
-* Fonte: <https://github.com/cams7/exemplos-eletronica>
+* Fonte: <https://github.com/cams7/exemplos-matematica>
 * Linkedin: <https://br.linkedin.com/in/cams7>
 
 Qual a finalidade desses exemplos?
@@ -21,8 +21,8 @@ Para testa os exemplos
 
 Exemplos de cálculos de limites retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [CURSO PRÁTICO DE LIMITES - Limite Unilateral - Limite Bilateral - Indeterminação de limites - Limites com Raiz - Continuidade de uma Função] (https://www.youtube.com/playlist?list=PLB1EB382374613099)
 -------------------
-01. Introdução aos limites - [Aula 1] (https://www.youtube.com/watch?v=v-VYli2XQo0&list=PLB1EB382374613099&index=1)
-02. Indeterminação de limites - [Aula 2] (https://www.youtube.com/watch?v=HaVqaNnZ_Z8&list=PLB1EB382374613099&index=2)
+01. [Introdução aos limites] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Limites/Limites%20de%20Fun%C3%A7%C3%A3o%20com%201%20vari%C3%A1vel) - [Aula 1] (https://www.youtube.com/watch?v=v-VYli2XQo0&list=PLB1EB382374613099&index=1)
+02. [Indeterminação de limites] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Limites/Limites%20de%20Fun%C3%A7%C3%A3o%20com%201%20vari%C3%A1vel) - [Aula 2] (https://www.youtube.com/watch?v=HaVqaNnZ_Z8&list=PLB1EB382374613099&index=2)
 03. Indeterminação de limites - [Aula 3] (https://www.youtube.com/watch?v=fcwnms0NsNk&list=PLB1EB382374613099&index=3)
 04. Indeterminação de limites 0/0 - [Aula 3a] (https://www.youtube.com/watch?v=oY0B740yB1Y&list=PLB1EB382374613099&index=4)
 05. Indeterminação polinomial de limites - [Aula 4] (https://www.youtube.com/watch?v=IG212G5rdbo&list=PLB1EB382374613099&index=5)
