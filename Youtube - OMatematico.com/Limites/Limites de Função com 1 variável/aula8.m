@@ -1,3 +1,4 @@
+clear
 syms x
 
 %Exercício I
