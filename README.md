@@ -43,3 +43,9 @@ Exemplos de cálculos de limites retirados do Youtube através do canal [OMatema
 20. Continuidade com gráfico de funções - [Aula 18] (https://www.youtube.com/watch?v=AN94aTk2A_k&list=PLB1EB382374613099&index=20)
 21. Limites fundamentais - [Aula 19] (https://www.youtube.com/watch?v=w4j1U3xBybo&list=PLB1EB382374613099&index=21)
 22. Assintotas Horizontal e Vertical - [Aula 20] (https://www.youtube.com/watch?v=a9iggHBT8iE&list=PLB1EB382374613099&index=22)
+
+Exemplos de cálculos de limites retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [Limites de Função de duas Variáveis] (https://www.youtube.com/playlist?list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
+-------------------
+01. Limites de Funções de duas Variáveis - [Aula 1] (https://www.youtube.com/watch?v=JawXYGNxEus&index=1&list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
+02. Limites de Funções de duas Variáveis - [Aula 2] (https://www.youtube.com/watch?v=4kI1DMJlSm0&index=2&list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
+03. Limites de Funções de duas Variáveis - [Aula 3] (https://www.youtube.com/watch?v=-lHjUyhErss&index=3&list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
