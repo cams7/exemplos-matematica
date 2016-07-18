@@ -1,7 +1,7 @@
 Exemplos de cálculos matematicos
 ========================
 * Autor: César Magalhães
-* Tecnologias: Matlab R2014A
+* Tecnologias: Matlab R2014A, Geogebra 5.0.260.0
 * Resumo: Cálculos de limites, derivadas, integrais ...
 * Linguagens: 
 * Fonte: <https://github.com/cams7/exemplos-matematica>
@@ -14,10 +14,12 @@ O objetivo é aprender um pouco mais sobre cálculos de limites, derivadas e int
 Sistemas requeridos
 -------------------
 * [Matlab R2014A] (http://www.mathworks.com/products/matlab/)
+# [Geogebra 5.0.260.0] (https://www.geogebra.org/)
 
 Para testa os exemplos
 -------------------
 * Instale o Matlab R2014A
+* Instale o Geogebra 5.0.260.0
 
 Exemplos de cálculos de limites retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [CURSO PRÁTICO DE LIMITES - Limite Unilateral - Limite Bilateral - Indeterminação de limites - Limites com Raiz - Continuidade de uma Função] (https://www.youtube.com/playlist?list=PLB1EB382374613099)
 -------------------
