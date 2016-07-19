@@ -31,10 +31,15 @@ diff(y)
 
 %Exercício IV
 f(x) = 7*x.^3 - 2*x - 400;
-g(x) = diff(f);
+g(x) = diff(f(x));
 
+x0 = -2;
+h(x) = g(x0)*(x - x0) + f(x0);
+
+f
 g
+h
 
 x = -5: .1 : 5;
-plot(x, f(x), 'r-', x, g(x), 'b--')
-legend('7*x^3 - 2*x - 400', '21*x^2 - 2')
+plot(x, f(x), 'r-', x, g(x), 'g--', x, h(x), 'b')
+legend('f(x) = 7*x^3 - 2*x - 400', 'g(x) = 21*x^2 - 2', 'h(x) = g(x0)*(x - x0) + f(x0)')

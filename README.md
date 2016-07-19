@@ -14,7 +14,7 @@ O objetivo é aprender um pouco mais sobre cálculos de limites, derivadas e int
 Sistemas requeridos
 -------------------
 * [Matlab R2014A] (http://www.mathworks.com/products/matlab/)
-# [Geogebra 5.0.260.0] (https://www.geogebra.org/)
+* [Geogebra 5.0.260.0] (https://www.geogebra.org/)
 
 Para testa os exemplos
 -------------------
@@ -54,20 +54,20 @@ Exemplos de cálculos de limites retirados do Youtube através do canal [OMatema
 
 Exemplos de cálculos de limites retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [Curso de Derivadas Completo] (https://www.youtube.com/playlist?list=PL063E43EF2E298037)
 -------------------
-01. Introdução as Derivadas - [Aula 1] (https://www.youtube.com/watch?v=s9OuXAQeM0U&list=PL063E43EF2E298037&index=1)
-02. Derivada com X no Denominador - [Aula 2] (https://www.youtube.com/watch?v=9Ac6t61f7XY&list=PL063E43EF2E298037&index=2)
-03. Derivada de Função Raiz - [Aula 3] (https://www.youtube.com/watch?v=zrrgc1JAo6s&list=PL063E43EF2E298037&index=3)
-04. Derivada de uma Função Potência - [Aula 4] (https://www.youtube.com/watch?v=Gec8owlmlcw&list=PL063E43EF2E298037&index=4)
-05. Derivada de uma Função Potência - [Aula 5] (https://www.youtube.com/watch?v=j4AfT341aBY&list=PL063E43EF2E298037&index=5)
-06. Derivada de Função Exponencial e Logarítmica - [Aula 6] (https://www.youtube.com/watch?v=hsyHjDhduNo&list=PL063E43EF2E298037&index=6)
-07. Derivada de um Produto de Funções - [Aula 7] (https://www.youtube.com/watch?v=vM4jGCrSZk4&list=PL063E43EF2E298037&index=7)
-08. Derivada de uma Divisão de Funções - [Aula 8] (https://www.youtube.com/watch?v=chRqY_SOnyc&list=PL063E43EF2E298037&index=8)
-09. Derivadas Básicas - [Aula 9] (https://www.youtube.com/watch?v=pOXLJbFk_u8&list=PL063E43EF2E298037&index=9)
-10. Exercícios de Derivada - [Aula 10] (https://www.youtube.com/watch?v=Ck-f3kg5c0k&list=PL063E43EF2E298037&index=10)
-11. Curso básico de derivadas - [Aula 12] (https://www.youtube.com/watch?v=vVVL0bbfMhI&list=PL063E43EF2E298037&index=11)
-12. Derivada de um Produto de Funções - [Aula 13] (https://www.youtube.com/watch?v=KXQ-BRh_DRE&list=PL063E43EF2E298037&index=12)
-13. Derivada de função composta, raiz, polinomial - [Aula 14] (https://www.youtube.com/watch?v=lJGbtSmXD18&list=PL063E43EF2E298037&index=13)
-14. Derivada de funções quociente, produto, polinomial - [Aula 15] (https://www.youtube.com/watch?v=dLI2OJggJGI&list=PL063E43EF2E298037&index=14)
+01. [Introdução as Derivadas] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 1] (https://www.youtube.com/watch?v=s9OuXAQeM0U&list=PL063E43EF2E298037&index=1)
+02. [Derivada com X no Denominador] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 2] (https://www.youtube.com/watch?v=9Ac6t61f7XY&list=PL063E43EF2E298037&index=2)
+03. [Derivada de Função Raiz] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 3] (https://www.youtube.com/watch?v=zrrgc1JAo6s&list=PL063E43EF2E298037&index=3)
+04. [Derivada de uma Função Potência] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 4] (https://www.youtube.com/watch?v=Gec8owlmlcw&list=PL063E43EF2E298037&index=4)
+05. [Derivada de uma Função Potência] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 5] (https://www.youtube.com/watch?v=j4AfT341aBY&list=PL063E43EF2E298037&index=5)
+06. [Derivada de Função Exponencial e Logarítmica] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 6] (https://www.youtube.com/watch?v=hsyHjDhduNo&list=PL063E43EF2E298037&index=6)
+07. [Derivada de um Produto de Funções] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 7] (https://www.youtube.com/watch?v=vM4jGCrSZk4&list=PL063E43EF2E298037&index=7)
+08. [Derivada de uma Divisão de Funções] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 8] (https://www.youtube.com/watch?v=chRqY_SOnyc&list=PL063E43EF2E298037&index=8)
+09. [Derivadas Básicas] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 9] (https://www.youtube.com/watch?v=pOXLJbFk_u8&list=PL063E43EF2E298037&index=9)
+10. [Exercícios de Derivada] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 10] (https://www.youtube.com/watch?v=Ck-f3kg5c0k&list=PL063E43EF2E298037&index=10)
+11. [Curso básico de derivadas] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 12] (https://www.youtube.com/watch?v=vVVL0bbfMhI&list=PL063E43EF2E298037&index=11)
+12. [Derivada de um Produto de Funções] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 13] (https://www.youtube.com/watch?v=KXQ-BRh_DRE&list=PL063E43EF2E298037&index=12)
+13. [Derivada de função composta, raiz, polinomial] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 14] (https://www.youtube.com/watch?v=lJGbtSmXD18&list=PL063E43EF2E298037&index=13)
+14. [Derivada de funções quociente, produto, polinomial] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 15] (https://www.youtube.com/watch?v=dLI2OJggJGI&list=PL063E43EF2E298037&index=14)
 15. Derivadas de função quociente e produto - [Aula 16] (https://www.youtube.com/watch?v=sOZNKeEGAFQ&list=PL063E43EF2E298037&index=15)
 16. Derivada de funções envolvendo raiz, quociente, produto - [Aula 17] (https://www.youtube.com/watch?v=qdeI4GRFzR0&list=PL063E43EF2E298037&index=16)
 17. Derivadas envolvendo funções quociente, produto, raiz, logaritmo, exponencial - [Aula 18] (https://www.youtube.com/watch?v=faqFCk_I-28&list=PL063E43EF2E298037&index=17)
