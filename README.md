@@ -78,7 +78,7 @@ Exemplos de cálculos de limites retirados do Youtube através do canal [OMatema
 22. Derivação (ou diferenciação) Logarítmica - [Aula 23] (https://www.youtube.com/watch?v=AqFnBxkhfA0&list=PL063E43EF2E298037&index=22)
 23. Derivada de função composta - [Aula 24] (https://www.youtube.com/watch?v=Dj5LS4MPaF4&list=PL063E43EF2E298037&index=23)
 24. O que é uma Derivada - [Aula 25] (https://www.youtube.com/watch?v=edMk9vpDekw&list=PL063E43EF2E298037&index=24)
-25. Derivadas: Reta Tangente e Reta Normal - [Aula 26] (https://www.youtube.com/watch?v=lufbms4obi4&list=PL063E43EF2E298037&index=25)
+25. [Derivadas: Reta Tangente e Reta Normal] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 26] (https://www.youtube.com/watch?v=lufbms4obi4&list=PL063E43EF2E298037&index=25)
 26. Derivada pela Definição - [Aula 27] (https://www.youtube.com/watch?v=xQ9pmy_oPtE&list=PL063E43EF2E298037&index=26)
 27. Derivada pela Regra da Cadeia - [Aula 1] (https://www.youtube.com/watch?v=8tlOLPzKxNE&list=PL063E43EF2E298037&index=27)
 28. Derivada pela Regra da Cadeia - [Aula 2] (https://www.youtube.com/watch?v=lTEkdePWWlY&list=PL063E43EF2E298037&index=28)
