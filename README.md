@@ -52,7 +52,7 @@ Exemplos de cálculos de limites retirados do Youtube através do canal [OMatema
 02. Limites de Funções de duas Variáveis - [Aula 2] (https://www.youtube.com/watch?v=4kI1DMJlSm0&index=2&list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
 03. Limites de Funções de duas Variáveis - [Aula 3] (https://www.youtube.com/watch?v=-lHjUyhErss&index=3&list=PLE6qFDd4x9w-QNHlBSP5cdC34pluWw7gF)
 
-Exemplos de cálculos de limites retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [Curso de Derivadas Completo] (https://www.youtube.com/playlist?list=PL063E43EF2E298037)
+Exemplos de cálculos de derivadas retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [Curso de Derivadas Completo] (https://www.youtube.com/playlist?list=PL063E43EF2E298037)
 -------------------
 01. [Introdução as Derivadas] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 1] (https://www.youtube.com/watch?v=s9OuXAQeM0U&list=PL063E43EF2E298037&index=1)
 02. [Derivada com X no Denominador] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 2] (https://www.youtube.com/watch?v=9Ac6t61f7XY&list=PL063E43EF2E298037&index=2)
@@ -126,3 +126,14 @@ Exemplos de cálculos de limites retirados do Youtube através do canal [OMatema
 70. [Máximos, Mínimos, Modelagem e Otimização] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 2] (https://www.youtube.com/watch?v=Gp2OQaVOTNY&list=PL063E43EF2E298037&index=70)
 71. [Máximos, Mínimos, Modelagem e Otimização] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 3] (https://www.youtube.com/watch?v=RkfSP-s9ymI&list=PL063E43EF2E298037&index=71)
 72. [Ponto de Inflexão e Concavidade da função] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Completo) - [Aula 4] (https://www.youtube.com/watch?v=TOxhTbTMDCk&list=PL063E43EF2E298037&index=72)
+
+Exemplos de cálculos de derivadas retirados do Youtube através do canal [OMatematico.com] (https://www.youtube.com/c/omatematicogrings) - [Curso de Derivadas Parciais] (https://www.youtube.com/playlist?list=PLD3D4268DCC981012)
+-------------------
+01. Introdução às Derivadas Parciais de 1ª ordem - [Aula 1] (https://www.youtube.com/watch?v=XrfrwH7YCp4&list=PLD3D4268DCC981012&index=1)
+02. Derivadas Parciais: Interpretação Geométrica - [Aula 2] (https://www.youtube.com/watch?v=PxNZQ3shMeM&list=PLD3D4268DCC981012&index=2)
+03. Derivadas Parciais de 2ª ordem - [Aula 3] (https://www.youtube.com/watch?v=Xm5018E9eHk&list=PLD3D4268DCC981012&index=3)
+04. Derivadas Parciais de 2ª ordem - [Aula 4] (https://www.youtube.com/watch?v=FZuNPjbZVW8&list=PLD3D4268DCC981012&index=4)
+05. Máximos, Mínimos e Sela através do Hessiano - [Aula 5] (https://www.youtube.com/watch?v=EsWDLR32ACM&list=PLD3D4268DCC981012&index=5)
+06. Máximos e Mínimos Condicionados com Multiplicadores de Lagrange - [Aula 6] (https://www.youtube.com/watch?v=LIWBeXDL600&list=PLD3D4268DCC981012&index=6)
+07. Derivada Direcional - [Aula 7] (https://www.youtube.com/watch?v=UnBy48qLGC0&list=PLD3D4268DCC981012&index=7)
+08. Vetor Gradiente - [Aula 8] (https://www.youtube.com/watch?v=hDVjvMG0DLo&list=PLD3D4268DCC981012&index=8)
