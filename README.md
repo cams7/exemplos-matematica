@@ -133,7 +133,7 @@ Exemplos de cálculos de derivadas retirados do Youtube através do canal [OMate
 02. Derivadas Parciais: Interpretação Geométrica - [Aula 2] (https://www.youtube.com/watch?v=PxNZQ3shMeM&list=PLD3D4268DCC981012&index=2)
 03. Derivadas Parciais de 2ª ordem - [Aula 3] (https://www.youtube.com/watch?v=Xm5018E9eHk&list=PLD3D4268DCC981012&index=3)
 04. Derivadas Parciais de 2ª ordem - [Aula 4] (https://www.youtube.com/watch?v=FZuNPjbZVW8&list=PLD3D4268DCC981012&index=4)
-05. Máximos, Mínimos e Sela através do Hessiano - [Aula 5] (https://www.youtube.com/watch?v=EsWDLR32ACM&list=PLD3D4268DCC981012&index=5)
+05. [Máximos, Mínimos e Sela através do Hessiano] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Derivadas/Curso%20de%20Derivadas%20Parciais) - [Aula 5] (https://www.youtube.com/watch?v=EsWDLR32ACM&list=PLD3D4268DCC981012&index=5)
 06. Máximos e Mínimos Condicionados com Multiplicadores de Lagrange - [Aula 6] (https://www.youtube.com/watch?v=LIWBeXDL600&list=PLD3D4268DCC981012&index=6)
 07. Derivada Direcional - [Aula 7] (https://www.youtube.com/watch?v=UnBy48qLGC0&list=PLD3D4268DCC981012&index=7)
 08. Vetor Gradiente - [Aula 8] (https://www.youtube.com/watch?v=hDVjvMG0DLo&list=PLD3D4268DCC981012&index=8)
