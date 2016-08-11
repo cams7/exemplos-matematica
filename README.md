@@ -185,7 +185,7 @@ Exemplos de cálculos de integrais retirados do Youtube através do canal [OMate
 43. [Cálculo de áreas com integrais] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Completo) - [Aula 4] (https://www.youtube.com/watch?v=3cnrfsk9v6k&index=43&list=PLD785E767CD25501A)
 44. [Cálculo de áreas com integrais] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Completo) - [Aula 5] (https://www.youtube.com/watch?v=9ILbhZb4IpU&index=44&list=PLD785E767CD25501A)
 45. [Cálculo de volume com integrais simples] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Completo) - [Aula 1] (https://www.youtube.com/watch?v=0aD5BV46Zyk&index=45&list=PLD785E767CD25501A)
-46. Cálculo de volume com integrais simples - [Aula 2] (https://www.youtube.com/watch?v=LWwg9JyWpmw&index=46&list=PLD785E767CD25501A)
+46. [Cálculo de volume com integrais simples] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Completo) - [Aula 2] (https://www.youtube.com/watch?v=LWwg9JyWpmw&index=46&list=PLD785E767CD25501A)
 47. Integral por Partes - [Aula 1] (https://www.youtube.com/watch?v=BIz6JNgzhWQ&index=47&list=PLD785E767CD25501A)
 48. Integral por Partes - [Aula 2] (https://www.youtube.com/watch?v=cRdr2czTzhs&index=48&list=PLD785E767CD25501A)
 49. Integral por Partes - [Aula 3] (https://www.youtube.com/watch?v=6YMPROv5_UQ&index=49&list=PLD785E767CD25501A)
