@@ -201,4 +201,4 @@ Exemplos de cálculos de integrais retirados do Youtube através do canal [OMate
 59. Integração por Substituição Trigonométrica - [Aula 2] (https://www.youtube.com/watch?v=Cqx8v0xUJyc&index=59&list=PLD785E767CD25501A)
 60. Integração por Substituição Trigonométrica - [Aula 3] (https://www.youtube.com/watch?v=a7KNOUEbcd0&index=60&list=PLD785E767CD25501A)
 61. Integral por Substituição Trigonométrica - [Aula 4] (https://www.youtube.com/watch?v=JdKQuAkNVzA&index=61&list=PLD785E767CD25501A)
-62. Integral Imprópria - [Aula] (https://www.youtube.com/watch?v=TD8L1V6xckw&index=62&list=PLD785E767CD25501A)
+62. [Integral Imprópria] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Completo) - [Aula] (https://www.youtube.com/watch?v=TD8L1V6xckw&index=62&list=PLD785E767CD25501A)
