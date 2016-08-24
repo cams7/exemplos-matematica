@@ -207,7 +207,7 @@ Exemplos de cálculos de integrais retirados do Youtube através do canal [OMate
 -------------------
 01. [Integrais duplas - Invertendo os limites de integração] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Duplas%20e%20Triplas) - [Aula 1] (https://www.youtube.com/watch?v=jopUbj3oxvU&list=PL82B9E5FF3F2B3BD3&index=1)
 02. [Integrais duplas - Determinação da região de integração] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Duplas%20e%20Triplas) - [Aula 2] (https://www.youtube.com/watch?v=NxT-5K_jKiw&list=PL82B9E5FF3F2B3BD3&index=2)
-03. Integrais duplas - Cálculo de volume - [Aula 3] (https://www.youtube.com/watch?v=vr4vjKpViNQ&list=PL82B9E5FF3F2B3BD3&index=3)
+03. [Integrais duplas - Cálculo de volume] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Duplas%20e%20Triplas) - [Aula 3] (https://www.youtube.com/watch?v=vr4vjKpViNQ&list=PL82B9E5FF3F2B3BD3&index=3)
 04. Cálculo de integrais duplas - Invertendo a ordem de integração - [Aula 4] (https://www.youtube.com/watch?v=ed53MgDGjMM&list=PL82B9E5FF3F2B3BD3&index=4)
 05. Cálculo de integrais duplas ou iteradas - [Aula 5] (https://www.youtube.com/watch?v=iuOUOJ-Yfxw&list=PL82B9E5FF3F2B3BD3&index=5)
 06. Cálculo de Integrais duplas ou iteradas - [Aula 6] (https://www.youtube.com/watch?v=an6ppZuYs9A&list=PL82B9E5FF3F2B3BD3&index=6)
