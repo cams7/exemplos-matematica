@@ -3,7 +3,7 @@
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 %\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{indentfirst}
+%\usepackage{indentfirst}
 
 \usepackage{amsmath, amsfonts, amssymb}
 \DeclareMathOperator{\sen}{sen}
@@ -20,8 +20,10 @@
 \newcommand{\overstrike}[1]{\ifmmode\text{\sout{\ensuremath{#1}}}\else\sout{#1}\fi}
 
 \usepackage{graphicx}
-\graphicspath{{img/}}
+%\usepackage[draft]{graphicx}
 \usepackage{float}
+\usepackage{subfig}
+\graphicspath{{img/}}
 
 \title{Curso de integrais duplas e triplas}
 \author{César Antônio de Magalhães \\ ceanma@gmail.com}
@@ -33,7 +35,7 @@
 	
 	\tableofcontents\newpage
 	
-	%\listoftables\newpage
+	\listoftables\newpage
 	
 	\listoffigures\newpage
 	
@@ -55,17 +57,17 @@
 			\subsection{Aula 6}
 				\input{Integrais_Duplas_Aula6}		
 			\subsection{Aula 7}
-				\input{Integrais_Duplas_Aula7}
-		
-		%\section{Cálculo de área - Aula 8}
-		
-		%\section{Cálculo de volume}
-			%\subsection{Aula 9}
-		
-			%\subsection{Aula 10}		
-	
-		%\section{Coordenadas polares}		
-			%\subsection{Aula 1}
+				\input{Integrais_Duplas_Aula7}		
+		\section{Cálculo de área - Aula 8}
+			\input{Integrais_Duplas_Aula8}		
+		\section{Cálculo de volume}
+			\subsection{Aula 9}
+				\input{Integrais_Duplas_Aula9}		
+			\subsection{Aula 10}
+				\input{Integrais_Duplas_Aula10}	
+		\section{Coordenadas polares}		
+			\subsection{Aula 1}
+				\input{Integrais_Duplas_Coordenadas_Polares_Aula1}
 			
 			%\subsection{Aula 2}
 			
