@@ -3,15 +3,18 @@
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 %\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-%\usepackage{indentfirst}
+\usepackage{indentfirst}
 
 \usepackage{amsmath, amsfonts, amssymb}
 \DeclareMathOperator{\sen}{sen}
 \DeclareMathOperator{\tg}{tg}
 \DeclareMathOperator{\cossec}{cossec}
+\DeclareMathOperator{\cotg}{cotg}
 \DeclareMathOperator{\arcsen}{arcsen}
 \DeclareMathOperator{\arctg}{arctg}
+\DeclareMathOperator{\arcsec}{arcsec}
 \DeclareMathOperator{\arccossec}{arccossec}
+\DeclareMathOperator{\arccotg}{arccotg}
 \DeclareMathOperator{\e}{e}
 \newcommand{\limite}{\displaystyle\lim}
 \newcommand{\integral}{\displaystyle\int}
@@ -25,22 +28,25 @@
 \usepackage{subfig}
 \graphicspath{{img/}}
 
+\usepackage[hidelinks]{hyperref}
+
 \title{Curso de integrais duplas e triplas}
 \author{César Antônio de Magalhães \\ ceanma@gmail.com}
 \date{\today}
 
 %Corpo do texto
 \begin{document}
-	\maketitle\newpage
+	\maketitle%\newpage
 	
-	\tableofcontents\newpage
+	\tableofcontents%\newpage
 	
-	\listoftables\newpage
+	\listoftables%\newpage
 	
-	\listoffigures\newpage
+	\listoffigures%\newpage
 	
-	%\begin{abstract}	
-	%\end{abstract}
+	\begin{abstract}
+		Exercícios retirados do canal do Youtube, O Matematico \cite{curso_integrais_duplas_triplas}.	
+	\end{abstract}
 	
 	\part{Integrais duplas}	
 		\section{Invertendo os limites de integração - Aula 1}			
@@ -113,5 +119,22 @@
 			
 			%\subsection{Aula 7}
 			
-			%\subsection{Aula 8}
+			%\subsection{Aula 8}		
+		
+		\appendix
+		\section{Derivadas}
+			\label{anexo_derivadas}
+			\input{Anexo_Derivadas}
+		\section{Integrais}
+			\label{anexo_integrais}
+			\input{Anexo_Integrais}
+		\section{Funções trigonométricas}
+			\label{anexo_funcoes_trigonometricas}
+			\input{Anexo_Funcoes_Trigonometricas}
+				
+		%\newpage
+		\bibliographystyle{plain}
+		%\addcontentsline{toc}{section}{Referências}
+		\bibliography{referencia}
+		
 \end{document}
