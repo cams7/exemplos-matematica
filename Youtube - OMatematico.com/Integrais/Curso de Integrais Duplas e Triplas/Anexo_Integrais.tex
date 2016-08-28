@@ -1,5 +1,7 @@
-\subsection{Integrais simples}
+\section{Integrais simples}
 	\begin{table}[H]
+		\caption{Integrais simples}
+		\label{integrais_simples}
 		\centering
 		\begin{tabular}{|lclcr|}
 			$\integral dx$            & $=$ & $x + c$                       &               &  \\
@@ -10,13 +12,13 @@
 			$\integral \e^u\, du$     & $=$ & $\e^u + c$                    &               &  \\
 			$\integral \dfrac{du}{u}$ & $=$ & $\ln|u| + c$                  &               &  \\
 			$\integral p^u\, du$      & $=$ & $\dfrac{p^u}{\ln|p|} + c$     &               &
-		\end{tabular}
-		\caption{Integrais simples}
-		\label{integrais_simples}
+		\end{tabular}		
 	\end{table}
 
-\subsection{Integrais trigonométricas}
+\section{Integrais trigonométricas}
 	\begin{table}[H]
+		\caption{Integrais trigonométricas}
+		\label{integrais_trigonometricas}
 		\centering
 		\begin{tabular}{|lcl|}
 			$\integral \sen(u)du$                      & $=$ & $-\cos(u) + c$                   \\
@@ -35,37 +37,34 @@
 			$-\integral \dfrac{du}{1 + x^2}$           & $=$ & $\arccotg(x) + c$                \\
 			$\integral \dfrac{du}{|x|\sqrt{x^2 - 1}}$  & $=$ & $\arcsec(x) + c$                 \\
 			$-\integral \dfrac{du}{|x|\sqrt{x^2 - 1}}$ & $=$ & $\arccossec(x) + c$
-		\end{tabular}
-		\caption{Integrais trigonométricas}
-		\label{integrais_trigonometricas}
+		\end{tabular}		
 	\end{table}
 
-\subsection{Relação entre coordenada cartesina e polar}
+\section{Relação entre coordenada cartesina e polar}
 	\begin{figure}[H]
-		\centering
+		\caption{Coordenada cartesina e polar}
+		\label{coordenada_cartesiana_polar}
+		\centering		
 		\subfloat[Coordenada cartesiana ou retangular]{
 			\includegraphics[width=0.29\paperwidth]{coordenada_cartesiana.png}
 		}
 		\quad\quad
 		\subfloat[Coordenada polar]{
 			\includegraphics[width=0.29\paperwidth]{coordenada_polar.png}
-		}
-		
-		\caption{Coordenada cartesina e polar}
-		\label{coordenada_cartesiana_polar}
+		}		
 	\end{figure}
 	
 	$$P(x,y) \rightarrow P(r,\theta)$$
 	
 	\begin{table}[H]
-		\centering
+		\caption{Relação entre coordenada cartesina e polar}
+		\label{relacao_coordenada_cartesiana_polar}
+		\centering		
 		\begin{tabular}{|lclcl|}
 			     &     & $x$                                 & $=$ & $r\,\cos \theta$                                                         \\
 			     &     & $y$                                 & $=$ & $r\,\sen \theta$                                                         \\
 			     &     & $x^2 + y^2$                         & $=$ & $r^2$                                                                    \\
 			$da$ & $=$ & $dxdy$                              & $=$ & $r\,drd\theta$                                                           \\
 			$v$  & $=$ & $\iintegral_{R(x,y)} f(x,y)\, dxdy$ & $=$ & $\iintegral_{R(r,\theta)} f(r\,\cos \theta,r\,\sen \theta) r\,drd\theta$
-		\end{tabular}
-		\caption{Relação entre coordenada cartesina e polar}
-		\label{relacao_coordenada_cartesiana_polar}
+		\end{tabular}		
 	\end{table}
