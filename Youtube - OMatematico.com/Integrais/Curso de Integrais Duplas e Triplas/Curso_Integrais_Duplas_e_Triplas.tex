@@ -1,47 +1,8 @@
-\documentclass[
-% -- opções da classe memoir --
-12pt,				% tamanho da fonte
-openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
-twoside,			% para impressão em recto e verso. Oposto a oneside
-a4paper,			% tamanho do papel. 
-% -- opções da classe abntex2 --
-%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
-%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
-%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
-%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
-% -- opções do pacote babel --
-english,			% idioma adicional para hifenização
-french,				% idioma adicional para hifenização
-spanish,			% idioma adicional para hifenização
-brazil,				% o último idioma é o principal do documento
-]{abntex2}
-
-% ---
-% PACOTES
-% ---
-
-% ---
-% Pacotes fundamentais 
-% ---
-\usepackage{lmodern}			% Usa a fonte Latin Modern
-\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
-\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
-\usepackage{color}				% Controle das cores
-\usepackage{graphicx}			% Inclusão de gráficos
-%\usepackage[draft]{graphicx}
-\usepackage{microtype} 			% para melhorias de justificação
-% ---
-
-% ---
-% Pacotes de citações
-% ---
-\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
-
-\usepackage{float}
-\usepackage{subfig}
-\graphicspath{{img/}}
+%Preâmbulo
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
 
 \usepackage{amsmath, amsfonts, amssymb}
 \DeclareMathOperator{\sen}{sen}
@@ -54,290 +15,122 @@ brazil,				% o último idioma é o principal do documento
 \DeclareMathOperator{\arccossec}{arccossec}
 \DeclareMathOperator{\arccotg}{arccotg}
 \DeclareMathOperator{\e}{e}
-\newcommand{\limite}{\displaystyle\lim}
-\newcommand{\integral}{\displaystyle\int}
-\newcommand{\iintegral}{\displaystyle\iint}
+
 \usepackage[normalem]{ulem}
 \newcommand{\overstrike}[1]{\ifmmode\text{\sout{\ensuremath{#1}}}\else\sout{#1}\fi}
 
-% --- 
-% CONFIGURAÇÕES DE PACOTES
-% --- 
+\usepackage{graphicx}
+%\usepackage[draft]{graphicx}
+\usepackage{subfig}
+\graphicspath{{img/}}
 
-% ---
-% Configurações do pacote backref
-% Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
-% Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
-% Define os textos da citação
-\renewcommand*{\backrefalt}[4]{
-	\ifcase #1 %
-	Nenhuma citação no texto.%
-	\or
-	Citado na página #2.%
-	\else
-	Citado #1 vezes nas páginas #2.%
-	\fi}%
-% ---
+\usepackage[hidelinks]{hyperref}
 
-% ---
-% Informações de dados para CAPA e FOLHA DE ROSTO
-% ---
 \title{Curso de integrais duplas e triplas}
-\author{César Antônio de Magalhães}
-\local{Brasil}
-\data{2016}
+\author{César Antônio de Magalhães \\ ceanma@gmail.com}
+\date{\today}
 
-% ---
-% Configurações de aparência do PDF final
-
-% alterando o aspecto da cor azul
-\definecolor{blue}{RGB}{41,5,195}
-
-% informações do PDF
-\makeatletter
-\hypersetup{
-	%pagebackref=true,
-	pdftitle={\@title}, 
-	pdfauthor={\@author},
-	pdfsubject={\imprimirpreambulo},
-	pdfcreator={LaTeX with abnTeX2},
-	pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa}, 
-	colorlinks=true,       		% false: boxed links; true: colored links
-	linkcolor=blue,          	% color of internal links
-	citecolor=blue,        		% color of links to bibliography
-	filecolor=magenta,      		% color of file links
-	urlcolor=blue,
-	bookmarksdepth=4
-}
-\makeatother
-% ---
-
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
-
-% O tamanho do parágrafo é dado por:
-\setlength{\parindent}{1.3cm}
-
-% Controle do espaçamento entre um parágrafo e outro:
-\setlength{\parskip}{0.2cm}  % tente também \onelineskip
-
-% ---
-% compila o indice
-% ---
-\makeindex
-% ---
-
-% ----
-% Início do documento
-% ----
+%Corpo do texto
 \begin{document}
-
-% Seleciona o idioma do documento (conforme pacotes do babel)
-%\selectlanguage{english}
-\selectlanguage{brazil}
-
-% Retira espaço extra obsoleto entre as frases.
-\frenchspacing 
-
-% ----------------------------------------------------------
-% ELEMENTOS PRÉ-TEXTUAIS
-% ----------------------------------------------------------
-% \pretextual
-
-% ---
-% Capa
-% ---
-\imprimircapa
-% ---
-
-% ---
-% Folha de rosto
-% ---
-\imprimirfolhaderosto
-% ---
-
-% ---
-% NOTA DA ABNT NBR 15287:2011, p. 4:
-%  ``Se exigido pela entidade, apresentar os dados curriculares do autor em
-%     folha ou página distinta após a folha de rosto.''
-% ---
-
-% ---
-% inserir lista de ilustrações
-% ---
-\pdfbookmark[0]{\listfigurename}{lof}
-\listoffigures*
-\cleardoublepage
-% ---
-
-% ---
-% inserir lista de tabelas
-% ---
-\pdfbookmark[0]{\listtablename}{lot}
-\listoftables*
-\cleardoublepage
-% ---
-
-% ---
-% inserir o sumario
-% ---
-\pdfbookmark[0]{\contentsname}{toc}
-\tableofcontents*
-\cleardoublepage
-% ---
-
-
-% ----------------------------------------------------------
-% ELEMENTOS TEXTUAIS
-% ----------------------------------------------------------
-\textual
-
-% ----------------------------------------------------------
-% Introdução
-% ----------------------------------------------------------
-\chapter*[Introdução]{Introdução}
-\addcontentsline{toc}{chapter}{Introdução}
-
-Exercícios retirados do canal do Youtube, O Matematico \cite{curso_integrais_duplas_triplas}.
-
-César Magalhães
-
-% ----------------------------------------------------------
-% Capitulo com exemplos de comandos inseridos de arquivo externo 
-% ----------------------------------------------------------
-
-\chapter{Integrais duplas}\label{integrais_duplas}
-\chapterprecis{Cálculo de integrais duplas.}\index{sinopse de capítulo}
-
-\section{Invertendo os limites de integração - Aula 1}			
-	\input{Integrais_Duplas_Aula1}		
-\section{Determinação da região de integração - Aula 2}		
-	\input{Integrais_Duplas_Aula2}		
-\section{Cálculo de volume - Aula 3}
-	\input{Integrais_Duplas_Aula3}		
-\section{Invertendo a ordem de integração - Aula 4}
-	\input{Integrais_Duplas_Aula4}		
-\section{Cálculo de integrais duplas ou iteradas}
-	\subsection{Aula 5}
-		\input{Integrais_Duplas_Aula5}		
-	\subsection{Aula 6}
-		\input{Integrais_Duplas_Aula6}		
-	\subsection{Aula 7}
-		\input{Integrais_Duplas_Aula7}		
-	\section{Cálculo de área - Aula 8}
-		\input{Integrais_Duplas_Aula8}		
-	\section{Cálculo de volume}
-		\subsection{Aula 9}
-			\input{Integrais_Duplas_Aula9}		
-		\subsection{Aula 10}
-			\input{Integrais_Duplas_Aula10}	
-\section{Coordenadas polares}		
-	\subsection{Aula 1}
-		\input{Integrais_Duplas_Coordenadas_Polares_Aula1}
-	%\subsection{Aula 2}
+	\maketitle%\newpage
 	
-	%\subsection{Aula 3}
-
-\chapter{Integrais triplas}\label{integrais_triplas}
-\chapterprecis{Cálculo de integrais triplas.}\index{sinopse de capítulo}	
-	%\section{Introdução - Aula 1}
+	\tableofcontents%\newpage
 	
-	%\section{Cálculo de integrais triplas - Aula 2}
+	\listoftables%\newpage
 	
-	%\section{Cálculo do volume de um sólido - Aula 3}
+	\listoffigures%\newpage
 	
-	%\section{Esboço de um sólido - Aula 4}
+	\begin{abstract}
+		Exercícios retirados do canal do Youtube, O Matematico \cite{curso_integrais_duplas_triplas}.	
+	\end{abstract}
 	
-	%\section{Coordenadas esféricas}
-	%\subsection{Aula 1}
+	\part{Integrais duplas}	
+		\section{Invertendo os limites de integração - Aula 1}			
+			\input{Integrais_Duplas_Aula1}		
+		\section{Determinação da região de integração - Aula 2}		
+			\input{Integrais_Duplas_Aula2}		
+		\section{Cálculo de volume - Aula 3}
+			\input{Integrais_Duplas_Aula3}		
+		\section{Invertendo a ordem de integração - Aula 4}
+			\input{Integrais_Duplas_Aula4}		
+		\section{Cálculo de integrais duplas ou iteradas}
+			\subsection{Aula 5}
+				\input{Integrais_Duplas_Aula5}		
+			\subsection{Aula 6}
+				\input{Integrais_Duplas_Aula6}		
+			\subsection{Aula 7}
+				\input{Integrais_Duplas_Aula7}		
+		\section{Cálculo de área - Aula 8}
+			\input{Integrais_Duplas_Aula8}		
+		\section{Cálculo de volume}
+			\subsection{Aula 9}
+				\input{Integrais_Duplas_Aula9}		
+			\subsection{Aula 10}
+				\input{Integrais_Duplas_Aula10}	
+		\section{Coordenadas polares}		
+			\subsection{Aula 1}
+				\input{Integrais_Duplas_Coordenadas_Polares_Aula1}
+			
+			%\subsection{Aula 2}
+			
+			%\subsection{Aula 3}
+			
+	%\part{Integrais triplas}
 	
-	%\subsection{Aula 2}
+		%\section{Introdução - Aula 1}
+		
+		%\section{Cálculo de integrais triplas - Aula 2}
+		
+		%\section{Cálculo do volume de um sólido - Aula 3}
+		
+		%\section{Esboço de um sólido - Aula 4}
 	
-	%\subsection{Aula 3}
+		%\section{Coordenadas esféricas}
+			%\subsection{Aula 1}
+			
+			%\subsection{Aula 2}
+			
+			%\subsection{Aula 3}
+			
+			%\subsection{Aula 4}
+			
+			%\subsection[Aula 5]{Cálculo de massa com coordenadas esféricas - Aula 5}
+			
+			%\subsection{Aula 6}
+			
+			%\subsection{Aula 7}
 	
-	%\subsection{Aula 4}
-	
-	%\subsection[Aula 5]{Cálculo de massa com coordenadas esféricas - Aula 5}
-	
-	%\subsection{Aula 6}
-	
-	%\subsection{Aula 7}
-	
-	%\section{Coordenadas cilíndricas}
-	%\subsection{Aula 1}
-	
-	%\subsection{Aula 2}
-	
-	%\subsection{Aula 3}
-	
-	%\subsection{Aula 4}
-	
-	%\subsection{Aula 5}
-	
-	%\subsection{Aula 6}
-	
-	%\subsection{Aula 7}
-	
-	%\subsection{Aula 8}
-
-%\subsection{Aula 2}
-
-%\subsection{Aula 3}
-
-% ----------------------------------------------------------
-% ELEMENTOS PÓS-TEXTUAIS
-% ----------------------------------------------------------
-\postextual
-
-% ----------------------------------------------------------
-% Referências bibliográficas
-% ----------------------------------------------------------
-\bibliography{referencia}
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-\begin{anexosenv}
-	
-	% Imprime uma página indicando o início dos anexos
-	\partanexos
-	
-	% ---
-	\chapter{Derivadas}
-	% ---
-	\label{anexo_derivadas}
-	\input{Anexo_Derivadas}
-	
-	% ---
-	\chapter{Integrais}
-	% ---
-	
-	\label{anexo_integrais}
-	\input{Anexo_Integrais}
-	
-	% ---
-	\chapter{Funções trigonométricas}
-	% ---
-	
-	\label{anexo_funcoes_trigonometricas}
-	\input{Anexo_Funcoes_Trigonometricas}
-	
-\end{anexosenv}
-
-%---------------------------------------------------------------------
-% INDICE REMISSIVO
-%---------------------------------------------------------------------
-
-\phantompart
-
-\printindex
-
-
+		%\section{Coordenadas cilíndricas}
+			%\subsection{Aula 1}
+			
+			%\subsection{Aula 2}
+			
+			%\subsection{Aula 3}
+			
+			%\subsection{Aula 4}
+			
+			%\subsection{Aula 5}
+			
+			%\subsection{Aula 6}
+			
+			%\subsection{Aula 7}
+			
+			%\subsection{Aula 8}		
+		
+		\appendix
+		\section{Derivadas}
+			\label{anexo_derivadas}
+			\input{Anexo_Derivadas}
+		\section{Integrais}
+			\label{anexo_integrais}
+			\input{Anexo_Integrais}
+		\section{Funções trigonométricas}
+			\label{anexo_funcoes_trigonometricas}
+			\input{Anexo_Funcoes_Trigonometricas}
+				
+		%\newpage
+		\bibliographystyle{plain}
+		%\addcontentsline{toc}{section}{Referências}
+		\bibliography{referencia}
+		
 \end{document}

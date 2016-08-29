@@ -1,8 +1,16 @@
 \begin{enumerate}
 	\item Exercício
 	
-	$f(x,y) = \dfrac{1}{x + y};\; 1 \leq y \leq \e;\; 0 \leq x \leq y$\newline
-	$\iintegral_R f(x, y) dx dy$\newline\newline
-	$v = \integral_1^{\e} \integral_0^y \dfrac{1}{x + y}\, dx dy = \integral_1^{\e} dy \integral_0^y (x + y)^{-1}\, dx = \integral_1^{\e} dy \integral_0^y u^{-1}\, du = \integral_1^{\e} dy \integral_0^y\, \left[\ln |u|\right]_0^y = \integral_1^{\e} dy \integral_0^y\, \left[\ln |x + y|\right]_0^y = \integral_1^{\e} dy \integral_0^y\, \left(\ln |y + y| - \ln |0 + y|\right) = \integral_1^{\e} dy \integral_0^y\, \left(\ln |2y| - \ln |y|\right) = \integral_1^{\e} dy \integral_0^y\, \left(\ln |2| \overstrike{+ \ln |y| - \ln |y|}\right) = \ln |2|\integral_1^{\e} dy = \ln |2|[y]_1^{\e} = \ln |2|(\e - 1)$\newline\newline
-	$u = x + y;\; du = (1 + 0)dx = dx$
+	\begin{equation*}
+		f(x,y) = \dfrac{1}{x + y};\; 1 \leq y \leq \e;\; 0 \leq x \leq y	
+	\end{equation*}
+	\begin{equation*}
+		\iint_R f(x, y) dx dy
+	\end{equation*}
+	\begin{align*}
+		v = \int_1^{\e} \int_0^y \dfrac{1}{x + y}\, dx dy = \int_1^{\e} dy \int_0^y (x + y)^{-1}\, dx = \int_1^{\e} dy \int_0^y u^{-1}\, du =\\ \int_1^{\e} dy \int_0^y\, \left[\ln |u|\right]_0^y = \int_1^{\e} dy \int_0^y\, \left[\ln |x + y|\right]_0^y = \int_1^{\e} dy \int_0^y\, \left(\ln |y + y| - \ln |0 + y|\right) =\\ \int_1^{\e} dy \int_0^y\, \left(\ln |2y| - \ln |y|\right) = \int_1^{\e} dy \int_0^y\, \left(\ln |2| \overstrike{+ \ln |y| - \ln |y|}\right) = \ln |2|\int_1^{\e} dy =\\ \ln |2|[y]_1^{\e} = \ln |2|(\e - 1)
+	\end{align*}
+	\begin{equation*}
+		u = x + y;\; du = (1 + 0)dx = dx
+	\end{equation*}
 \end{enumerate}
