@@ -19,8 +19,8 @@
 \usepackage[normalem]{ulem}
 \newcommand{\overstrike}[1]{\ifmmode\text{\sout{\ensuremath{#1}}}\else\sout{#1}\fi}
 
-\usepackage{graphicx}
-%\usepackage[draft]{graphicx}
+%\usepackage{graphicx}
+\usepackage[draft]{graphicx}
 \usepackage{subfig}
 \graphicspath{{img/}}
 
@@ -32,13 +32,13 @@
 
 %Corpo do texto
 \begin{document}
-	\maketitle%\newpage
+	\maketitle
 	
-	\tableofcontents%\newpage
+	\tableofcontents
 	
-	\listoftables%\newpage
+	\listoftables
 	
-	\listoffigures%\newpage
+	\listoffigures
 	
 	\begin{abstract}
 		Exercícios retirados do canal do Youtube, O Matematico \cite{curso_integrais_duplas_triplas}.	
@@ -69,9 +69,9 @@
 				\input{Integrais_Duplas_Aula10}	
 		\section{Coordenadas polares}		
 			\subsection{Aula 1}
-				\input{Integrais_Duplas_Coordenadas_Polares_Aula1}
-			
-			%\subsection{Aula 2}
+				\input{Integrais_Duplas_Coordenadas_Polares_Aula1}			
+			\subsection{Aula 2}
+				\input{Integrais_Duplas_Coordenadas_Polares_Aula2}
 			
 			%\subsection{Aula 3}
 			
@@ -119,18 +119,12 @@
 		
 		\appendix
 		\section{Derivadas}
-			\label{anexo_derivadas}
 			\input{Anexo_Derivadas}
 		\section{Integrais}
-			\label{anexo_integrais}
 			\input{Anexo_Integrais}
 		\section{Funções trigonométricas}
-			\label{anexo_funcoes_trigonometricas}
 			\input{Anexo_Funcoes_Trigonometricas}
 				
-		%\newpage
 		\bibliographystyle{plain}
-		%\addcontentsline{toc}{section}{Referências}
-		\bibliography{referencia}
-		
+		\bibliography{referencia}		
 \end{document}
