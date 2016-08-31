@@ -1,5 +1,5 @@
 \section{Integrais simples}
-	\begin{table}[htb]
+	\begin{table}[H]
 		\caption{Integrais simples}
 		\label{integrais_simples}
 		\centering
@@ -16,7 +16,7 @@
 	\end{table}
 
 \section{Integrais trigonométricas}
-	\begin{table}[htb]
+	\begin{table}[H]
 		\caption{Integrais trigonométricas}
 		\label{integrais_trigonometricas}
 		\centering
@@ -40,31 +40,78 @@
 		\end{tabular}		
 	\end{table}
 
-\section{Relação entre coordenada cartesina e polar}
-	\begin{figure}[htb]
-		\caption{Coordenada cartesina e polar}
+\section{Relação entre coordenadas cartesinas e polares}
+	\begin{figure}[H]
+		\caption{Coordenadas cartesinas e polares}
 		\label{coordenada_cartesiana_polar}
 		\centering		
-		\subfloat[Coordenada cartesiana ou retangular]{
+		\subfloat[Coordenadas cartesianas ou retangulares]{
 			\includegraphics[width=0.25\textwidth]{coordenada_cartesiana.png}
 		}
 		\quad\quad
-		\subfloat[Coordenada polar]{
+		\subfloat[Coordenadas polares]{
 			\includegraphics[width=0.25\textwidth]{coordenada_polar.png}
 		}		
 	\end{figure}
 	
 	$$P(x,y) \rightarrow P(r,\theta)$$
 	
-	\begin{table}[htb]
-		\caption{Relação entre coordenada cartesina e polar}
-		\label{relacao_coordenada_cartesiana_polar}
+	\begin{table}[H]
+		\caption{Transformação de coordenadas cartesinas em polares}
+		\label{transformacao_coordenadas_cartesianas_polares}
 		\centering		
-		\begin{tabular}{|lclcl|}
-			     &     & $x$                                 & $=$ & $r\,\cos \theta$                                                         \\
-			     &     & $y$                                 & $=$ & $r\,\sen \theta$                                                         \\
-			     &     & $x^2 + y^2$                         & $=$ & $r^2$                                                                    \\
-			$da$ & $=$ & $dxdy$                              & $=$ & $r\,drd\theta$                                                           \\
-			$v$  & $=$ & $\displaystyle\iint_{R(x,y)} f(x,y)\, dxdy$ & $=$ & $\displaystyle\iint_{R(r,\theta)} f(r\,\cos \theta,r\,\sen \theta) r\,drd\theta$
+		\begin{tabular}{|lcl|}
+			$x$ & $=$ & $r\,\cos(\theta) $ \\
+			$y$ & $=$ & $r\,\sen(\theta)$
 		\end{tabular}		
 	\end{table}
+	\begin{table}[H]
+		\caption{Coordenadas polares a partir das suas correspondentes cartesianas}
+		\label{correpondentes_coordenadas_cartesianas_polares}
+		\centering		
+		\begin{tabular}{|lcl|}
+			$r^2$    & $=$ & $x^2 + y^2$                        \\
+			$\theta$ & $=$ & $\arccos\left(\dfrac{x}{r}\right)$ \\
+			$\theta$ & $=$ & $\arcsen\left(\dfrac{y}{r}\right)$
+		\end{tabular}		
+	\end{table}
+	
+	\begin{equation*}
+		v = \iint_{R(x,y)} f(x,y)\, dxdy = \iint_{R(r,\theta)} f(r\,\cos(\theta),\,r\,\sen(\theta)) r\,drd\theta
+	\end{equation*}
+	
+\section{Relação entre coordenadas cartesinas e esféricas}
+	
+	\begin{figure}[H]
+		\caption{Coordenadas esféricas}
+		\label{coordenadas_esfericas}
+		\centering
+		\includegraphics[width=0.5\textwidth]{coordenadas_esfericas.png}		
+	\end{figure}
+	
+	$$r \in [0, \infty),\, \varphi \in [0,\, 2\pi],\, \theta \in [0,\, \pi]$$
+	
+	\begin{table}[H]
+		\caption{Transformação de coordenadas cartesinas em esféricas}
+		\label{transformacao_coordenadas_cartesianas_esfericas}
+		\centering		
+		\begin{tabular}{|lcl|}
+			$x$ & $=$ & $r\,\sen(\varphi)\cos(\theta)$ \\
+			$y$ & $=$ & $r\,\sen(\varphi)\sen(\theta)$ \\
+			$z$ & $=$ & $r\,\cos(\varphi)$
+		\end{tabular}		
+	\end{table}	
+	\begin{table}[H]
+		\caption{Coordenadas esféricas a partir das suas correspondentes cartesianas}
+		\label{correpondentes_coordenadas_cartesianas_esfericas}
+		\centering		
+		\begin{tabular}{|lcl|}
+			$r^2$     & $=$ & $x^2 + y^2 + z^2$                                \\
+			$\theta$  & $=$ & $\arctg\left(\dfrac{y}{x}\right)$                \\
+			$\varphi$ & $=$ & $\arctg\left(\dfrac{\sqrt{x^2 + y^2}}{z}\right)$
+		\end{tabular}		
+	\end{table}
+	
+	\begin{align*}
+		v = \iiint_{R(x,y,z)} f(x,y,z)\, dxdydz =\\ \iiint_{R(r,\theta,\varphi)} f(r\,\sen(\varphi)\cos(\theta),\, r\,\sen(\varphi)\sen(\theta),\, r\,\cos(\varphi))\, r^2\sen(\varphi)\, dr d\varphi d\theta
+	\end{align*}

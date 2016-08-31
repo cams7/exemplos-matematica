@@ -225,7 +225,7 @@ Exemplos de cálculos de integrais retirados do Youtube através do canal [OMate
 14. Introdução às integrais triplas - [Aula 1] (https://www.youtube.com/watch?v=32oMHqLSuFc&list=PL82B9E5FF3F2B3BD3&index=14)
 15. Cálculo de integrais triplas - [Aula 2] (https://www.youtube.com/watch?v=6I9zh7l762I&list=PL82B9E5FF3F2B3BD3&index=15)
 16. Integrais triplas - Cálculo do volume de um sólido - [Aula 3] (https://www.youtube.com/watch?v=O7hJAo1rexA&list=PL82B9E5FF3F2B3BD3&index=16)
-17. Integrais triplas - Esboço de um sólido - [Aula 4] (https://www.youtube.com/watch?v=Fyf7LIH0DU4&list=PL82B9E5FF3F2B3BD3&index=17)
+17. [Integrais triplas - Esboço de um sólido] (https://github.com/cams7/exemplos-matematica/tree/master/Youtube%20-%20OMatematico.com/Integrais/Curso%20de%20Integrais%20Duplas%20e%20Triplas) - [Aula 4] (https://www.youtube.com/watch?v=Fyf7LIH0DU4&list=PL82B9E5FF3F2B3BD3&index=17)
 18. Integral tripla - Coordenadas esféricas - [Aula 1] (https://www.youtube.com/watch?v=URcrHzqQ3Gg&list=PL82B9E5FF3F2B3BD3&index=18)
 19. Integral tripla - Coordenadas esféricas - [Aula 2] (https://www.youtube.com/watch?v=rB5l7uaohJI&list=PL82B9E5FF3F2B3BD3&index=19)
 20. Integral tripla - Coordenadas esféricas - [Aula 3] (https://www.youtube.com/watch?v=qKvWsCe5ZqI&list=PL82B9E5FF3F2B3BD3&index=20)
