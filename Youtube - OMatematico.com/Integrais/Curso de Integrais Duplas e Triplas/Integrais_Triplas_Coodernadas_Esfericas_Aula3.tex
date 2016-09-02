@@ -1,0 +1,16 @@
+\begin{enumerate}
+	\item Exercício
+	
+	\begin{equation*}
+		x^2 + y^2+ z^2 = r^2 = 4^2 = 16
+	\end{equation*}
+	
+	
+	\begin{equation*}
+		0 \leq r \leq 4,\, 0 \leq \theta \leq 2\pi,\, 0 \leq \varphi \leq \pi
+	\end{equation*}
+	
+	\begin{align*}
+		v = \int_0^{\pi} \int_0^{2\pi} \int_0^4 r^2\sen(\varphi)\, dr d\theta d\varphi = \int_0^{\pi} \int_0^{2\pi}\left(\sen(\varphi)\left[\dfrac{r^3}{3}\right]_0^4\right)d\theta d\varphi =\\ \int_0^{\pi} \int_0^{2\pi}\left(\sen(\varphi)\dfrac{64}{3}\right)d\theta d\varphi = \dfrac{64}{3}\int_0^{\pi} \int_0^{2\pi}\sen(\varphi)\, d\theta d\varphi = \dfrac{64}{3} \int_0^{\pi} \left(\sen(\varphi)\left[\theta\right]_0^{2\pi}\right)d\varphi =\\ \dfrac{64}{3} \int_0^{\pi} \sen(\varphi) 2\pi\, d\varphi = \dfrac{128\pi}{3} \int_0^{\pi} \sen(\varphi)\, d\varphi = \dfrac{128\pi}{3} \left[-\cos(\varphi)\right]_0^{\pi} =\\ \dfrac{128\pi}{3} (-\cos(\pi) + \cos(0)) = \dfrac{128\pi}{3} (1 + 1) = \dfrac{256\pi}{3}
+	\end{align*}
+\end{enumerate}
