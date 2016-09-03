@@ -28,9 +28,9 @@
 	\begin{equation*}
 		R = \left\{(r, \theta) \in \mathbb{R}^2 \,|\, 2 \leq r \leq 3,\, 0 \leq \theta \leq 2\pi\right\}
 	\end{equation*}		
-	\begin{align*}
+	\begin{gather*}
 		v = \iint_R \e^{x^2 + y^2} dx dy = \int_2^3 \int_0^{2\pi} \e^{r^2} r\, dr d\theta = \int_2^3 \e^{r^2} r\, dr \int_0^{2\pi} d\theta = \int_2^3 \e^u \dfrac{du}{2} \int_0^{2\pi} d\theta =\\ \dfrac{1}{2}\int_2^3 \e^u du \int_0^{2\pi} d\theta = \dfrac{1}{2} \left[\e^u\right]_2^3 [\theta]_0^{2\pi} = \dfrac{1}{\overstrike{2}} \left[\e^{r^2}\right]_2^3 \overstrike{2}\pi = \left(\e^{3^2} - \e^{2^2}\right) \pi = \pi\left(\e^9 - \e^4\right)	
-	\end{align*}
+	\end{gather*}
 	\begin{equation*}
 		u = r^2 \Rightarrow \dfrac{du}{2} = r\, dr
 	\end{equation*}
@@ -61,7 +61,7 @@
 	\begin{equation*}
 		R = \left\{(r, \theta) \in \mathbb{R}^2 \,|\, 0 \leq r \leq 2,\, 0 \leq \theta \leq 2\pi\right\}
 	\end{equation*}
-	\begin{align*}
+	\begin{gather*}
 		v = \iint_R \sqrt{x^2 + y^2}\, dxdy = \int_0^2 \int_0^{2\pi} r^2\, drd\theta = \int_0^2 r^2\, dr \int_0^{2\pi} d\theta =\\ \left[\dfrac{r^3}{3}\right]_0^2 [\theta]_0^{2\pi} = \dfrac{2^3}{3}2\pi = \dfrac{16\pi}{3}
-	\end{align*}
+	\end{gather*}
 \end{enumerate}

@@ -8,9 +8,9 @@
 		R = \left\{(x, y, z) \in \mathbb{R}^3 \,|\, 0 \leq x \leq \pi,\, 0 \leq y \leq 1,\, 0 \leq z \leq \dfrac{\pi}{6}\right\}
 	\end{equation*}
 	
-	\begin{align*}
+	\begin{gather*}
 		\iiint_R xy\sen(yz)\, dv = \int_0^{\pi} \int_0^1 \int_0^{\frac{\pi}{6}} xy\sen(yz)\, dzdydx =\\  \int_0^{\pi} \int_0^1\left(x\int_0^{\frac{\pi}{6}} \sen(yz)y\, dz\right)\, dydx = \int_0^{\pi} \int_0^1\left(x\int_0^{\frac{\pi}{6}} \sen(u)\, du\right)\, dydx =\\ \int_0^{\pi} \int_0^1 \left[-x\cos(u)\right]_0^{\frac{\pi}{6}}\, dydx = \int_0^{\pi} \int_0^1 \left[-x\cos(yz)\right]_0^{\frac{\pi}{6}}\, dydx =\\ \int_0^{\pi} \int_0^1 \left(-x\cos\left(\dfrac{y\pi}{6}\right) + x\cos(0)\right)\, dydx = \int_0^{\pi} \int_0^1 \left(-x\cos\left(\dfrac{y\pi}{6}\right) + x\right)\, dydx =\\ \int_0^{\pi}\left(-x\int_0^1\cos\left(\dfrac{y\pi}{6}\right)\, dy + x\int_0^1 dy \right)\, dx = \int_0^{\pi}\left(-x\int_0^1\cos(v)\dfrac{6\, dv}{\pi} + x\int_0^1 dy \right)\, dx =\\ \int_0^{\pi}\left(\dfrac{-6x}{\pi}\int_0^1\cos(v)\, dv + x\int_0^1 dy \right)\, dx = \int_0^{\pi}\left[\dfrac{-6x\sen(v)}{\pi} + xy\right]_0^1\, dx =\\ \int_0^{\pi}\left[\dfrac{-6x\sen\left(\dfrac{y\pi}{6}\right) + xy\pi}{\pi}\right]_0^1\, dx = \dfrac{1}{\pi}\int_0^{\pi}\left[-x\left(6\sen\left(\dfrac{y\pi}{6}\right) - y\pi\right)\right]_0^1\, dx =\\ \dfrac{1}{\pi}\int_0^{\pi}\left[-x\left(6\sen\left(\dfrac{\pi}{6}\right) - \pi\right) \overstrike{+ x(6\sen(0) - 0)}\right]\, dx = \dfrac{1}{\pi}\int_0^{\pi}\left(-6x\sen\left(\dfrac{\pi}{6}\right) + x\pi\right)\, dx =\\ \dfrac{-6\sen\left(\dfrac{\pi}{6}\right)}{\pi}\int_0^{\pi} x\, dx + \pi\int_0^{\pi} x\, dx = \left[\dfrac{-6\sen\left(\dfrac{\pi}{6}\right)}{\pi}\dfrac{x^2}{2} + \dfrac{\pi x^2}{2}\right]_0^{\pi} =\\ \left[\dfrac{-3x^2\sen\left(\dfrac{\pi}{6}\right)}{\pi} + \dfrac{\pi x^2}{2}\right]_0^{\pi} = \left[\dfrac{-6x^2\sen\left(\dfrac{\pi}{6}\right) + \pi^2 x^2}{2\pi}\right]_0^{\pi} = \dfrac{1}{2\pi}\left[-x^2\left(6\sen\left(\dfrac{\pi}{6}\right) - \pi^2\right)\right]_0^{\pi} =\\ \dfrac{1}{2\pi}\left[-\pi^2\left(6\sen\left(\dfrac{\pi}{6}\right) - \pi^2\right)\right] = \dfrac{-\pi\left(6\sen\left(\dfrac{\pi}{6}\right) - \pi^2\right)}{2} = \dfrac{-\pi\left(6\dfrac{1}{2} - \pi^2\right)}{2} =\\ \dfrac{-\pi\left(3 - \pi^2\right)}{2} = \dfrac{\pi^3 - 3\pi}{2}
-	\end{align*}
+	\end{gather*}
 	\begin{equation*}
 		u = yz \Rightarrow du = y\, dz
 	\end{equation*}
@@ -20,13 +20,13 @@
 	
 	\item Exercício
 	
-	\begin{align*}
+	\begin{gather*}
 			\int_0^1 \int_0^{\sqrt{1 - y^2}} \int_0^y z\, dxdzdy = \int_0^1 \int_0^{\sqrt{1 - y^2}}\left(z\int_0^y\, dx\right)\,dzdy = \int_0^1 \int_0^{\sqrt{1 - y^2}} \left[zx\right]_0^y\,dzdy =\\ \int_0^1 \int_0^{\sqrt{1 - y^2}} \left(zy\right)\,dzdy = \int_0^1\left(y\int_0^{\sqrt{1 - y^2}} z\, dz\right)\,dy = \int_0^1 \left[\dfrac{yz^2}{2}\right]_0^{\sqrt{1 - y^2}}\,dy =\\ \int_0^1\left(\dfrac{y\left(\sqrt{1 - y^2}\right)^2}{2}\right)\,dy = \int_0^1\dfrac{y - y^3}{2}\, dy = \dfrac{1}{2}\int_0^1\left(y - y^3\right)\, dy = \dfrac{1}{2} \left[\dfrac{y^2}{2} - \dfrac{y^4}{4}\right]_0^1 =\\ \dfrac{1}{2} \left[\dfrac{2y^2 - y^4}{4}\right]_0^1 = \dfrac{1}{8}\left[y^2\left(2 - y^2\right)\right]_0^1 = \dfrac{1}{8}\left[1^2\left(2 - 1^2\right)\right] = \dfrac{1}{8}
-	\end{align*}
+	\end{gather*}
 	
 	\item Exercício
 	
-	\begin{align*}
+	\begin{gather*}
 		\int_0^3 \int_0^{\sqrt{9 - z^2}} \int_0^x xy\, dydxdz = \int_0^3 \int_0^{\sqrt{9 - z^2}} \left(x\int_0^x y\, dy\right)\, dxdz =\\ \int_0^3 \int_0^{\sqrt{9 - z^2}} \left[\dfrac{xy^2}{2}\right]_0^x = \dfrac{1}{2}\int_0^3 \int_0^{\sqrt{9 - z^2}} x^3\, dxdz =\\ \dfrac{1}{2}\int_0^3 \left[\dfrac{x^4}{4}\right]_0^{\sqrt{9 - z^2}}\, dz = \dfrac{1}{2}\int_0^3 \left[\dfrac{\left(\sqrt{9 - z^2}\right)^4}{4}\right]\, dz = \dfrac{1}{8}\int_0^3 \left[\left(9 - z^2\right)^2\right]\, dz =\\ \dfrac{1}{8}\int_0^3 \left(81 - 18z^2 + z^4\right)\, dz = \dfrac{1}{8}\left[81z - \dfrac{18z^3}{3} + \dfrac{z^5}{5}\right]_0^3 = \dfrac{1}{8}\left[\dfrac{1215z - 90z^3 + 3z^5}{15}\right]_0^3 =\\ \dfrac{1}{120}\left[3z\left(405 - 30z^2 + z^4\right)\right]_0^3 = \dfrac{1}{40}\left[z\left(405 - 30z^2 + z^4\right)\right]_0^3 = \dfrac{1}{40}\left[3\left(405 - 30\cdot3^2 + 3^4\right)\right] =\\ \dfrac{1}{40}\left[3\left(405 - 270 + 81\right)\right] = \dfrac{648}{40} = \dfrac{81}{5}
-	\end{align*}
+	\end{gather*}
 \end{enumerate}

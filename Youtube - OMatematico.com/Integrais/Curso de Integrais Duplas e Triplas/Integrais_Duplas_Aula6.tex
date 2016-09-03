@@ -7,9 +7,9 @@
 	\begin{equation*}
 		\iint_R f(x, y) dy dx
 	\end{equation*}
-	\begin{align*}
+	\begin{gather*}
 		v = \int_0^1 \int_1^{\e^x} dy dx = \int_0^1 dx\, [y]_1^{\e^x} = \int_0^1 dx\, \left(\e^x - 1\right) = \left[\e^x - x\right]_0^1 =\\ \e^1 - 1 - \left(\e^0 - 0\right) = \e - 1 - 1 = \e - 2	
-	\end{align*}
+	\end{gather*}
 	
 	\item Exercício
 	
@@ -19,9 +19,9 @@
 	\begin{equation*}
 		\iint_R f(x, y) dy dx
 	\end{equation*}
-	\begin{align*}
+	\begin{gather*}
 		v = \int_0^1 \int_1^{\e^{x^2}} x\, dx dy = \int_0^1 x\,	dx \int_1^{\e^{x^2}} dy = \int_0^1 x\, dx\, [y]_1^{\e^{x^2}} = \int_0^1 x\, dx\, \left(\e^{x^2} - 1\right) =\\ \int_0^1 x\e^{x^2}\, dx - \int_0^1 x\,	dx = \int_0^1 \e^u\, \dfrac{du}{2} - \int_0^1 x\,	dx = \dfrac{1}{2}\int_0^1 \e^u\, du - \int_0^1 x\, dx =\\ \left[\dfrac{1}{2}e^u - \dfrac{x^2}{2}\right]_0^1 = \left[\dfrac{e^{x^2} - x^2}{2}\right]_0^1 = \dfrac{1}{2} \left[e^{x^2} - x^2\right]_0^1 = \dfrac{1}{2} \left[e^{1^2} - 1^2 - \left(e^{0^2} - 0^2\right)\right] =\\ \dfrac{1}{2}(\e - 1 - 1) = \dfrac{\e - 2}{2}
-	\end{align*}	
+	\end{gather*}	
 	\begin{equation*}
 		u = x^2 ;\; \dfrac{du}{2} = x\, dx
 	\end{equation*}
@@ -34,7 +34,7 @@
 	\begin{equation*}
 		\iint_R f(x, y) dx dy
 	\end{equation*}
-	\begin{align*}
+	\begin{gather*}
 		v = \int_0^1 \int_{y^2}^y 2xy\, dx dy = 2\int_0^1 y\, dy \int_{y^2}^y x\, dx = 2\int_0^1 y\, dy\, \left[\dfrac{x^2}{2}\right]_{y^2}^y = \overstrike{2}\int_0^1 y\, dy\, \dfrac{1}{\overstrike{2}}\left[x^2\right]_{y^2}^y =\\ \int_0^1 y\, dy\, \left(y^2 - y^4\right) = \int_0^1 \left(y^3 - y^5\right) dy = \left[\frac{y^4}{4} - \frac{y^6}{6}\right]_0^1 =\\ \left[\dfrac{6y^4 - 4y^6}{24}\right]_0^1 = \left[\dfrac{2y^4\left(3 - 2y^2\right)}{24}\right]_0^1 = \dfrac{1}{12}\left[1^4\left(3 - 2\cdot1^2\right) \overstrike{- 0^4\left(3 - 2\cdot0^2\right)}\right] = \dfrac{1}{12} = 0,08\overline{3}
-	\end{align*}
+	\end{gather*}
 \end{enumerate}

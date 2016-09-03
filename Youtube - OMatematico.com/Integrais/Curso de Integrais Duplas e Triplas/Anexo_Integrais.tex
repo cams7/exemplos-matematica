@@ -40,10 +40,10 @@
 		\end{tabular}		
 	\end{table}
 
-\section{Relação entre coordenadas cartesinas e polares}
+\section{Coordenadas polares}
 	\begin{figure}[H]
-		\caption{Coordenadas cartesinas e polares}
-		\label{coordenadas_cartesianas_polares}
+		\caption{Coordenadas polares}
+		\label{coordenadas_polares}
 		\centering
 		\includegraphics[width=0.5\textwidth]{coordenadas_polares.jpg}		
 	\end{figure}
@@ -54,28 +54,62 @@
 		\caption{Transformação de coordenadas cartesinas em polares}
 		\label{transformacao_coordenadas_cartesianas_polares}
 		\centering		
-		\begin{tabular}{|lclclcl|}
-			$\theta$       & $=$ & $\arctg\left(\dfrac{y}{x}\right)$ & $\Rightarrow$ & $\dfrac{y}{x}$ & $=$ & $\tg(\theta)$     \\
-			$\sen(\theta)$ & $=$ & $\dfrac{y}{r}$                    & $\Rightarrow$ & $y$            & $=$ & $r\,\sen(\theta)$ \\
-			$\cos(\theta)$ & $=$ & $\dfrac{x}{r}$                    & $\Rightarrow$ & $x$            & $=$ & $r\,\cos(\theta)$
+		\begin{tabular}{|lcl|}
+			$y$            & $=$ & $r\,\sen(\theta)$ \\
+			$x$            & $=$ & $r\,\cos(\theta)$
 		\end{tabular}		
 	\end{table}
 	\begin{table}[H]
 		\caption{Coordenadas polares a partir das suas correspondentes cartesianas}
 		\label{correpondentes_coordenadas_cartesianas_polares}
 		\centering		
-		\begin{tabular}{|lclclcl|}
-			$x^2 + y^2$    & $=$ & $r^2$          & $\Rightarrow$ & $r$      & $=$ & $\sqrt{x^2 + y^2}$                 \\
-			$\sen(\theta)$ & $=$ & $\dfrac{y}{r}$ & $\Rightarrow$ & $\theta$ & $=$ & $\arcsen\left(\dfrac{y}{r}\right)$ \\
-			$\cos(\theta)$ & $=$ & $\dfrac{x}{r}$ & $\Rightarrow$ & $\theta$ & $=$ & $\arccos\left(\dfrac{x}{r}\right)$
+		\begin{tabular}{|lcl|}
+			$r^2$    & $=$ & $x^2 + y^2$                        \\
+			$\theta$ & $=$ & $\arcsen\left(\dfrac{y}{r}\right)$ \\
+			$\theta$ & $=$ & $\arccos\left(\dfrac{x}{r}\right)$ \\
+			$\theta$ & $=$ & $\arctg\left(\dfrac{y}{x}\right)$
 		\end{tabular}		
 	\end{table}
 	
 	\begin{equation*}
-		v = \iint_{R(x,y)} f(x,y)\, dxdy = \iint_{R(r,\theta)} f(r\,\cos(\theta),\,r\,\sen(\theta)) r\,drd\theta
+		\iint_R z\, da = \iint_R f(x,y)\, dxdy = \iint_R f(r\,\cos(\theta),\,r\,\sen(\theta)) r\,drd\theta
 	\end{equation*}
 	
-\section{Relação entre coordenadas cartesinas e esféricas}
+\section{Coordenadas cilíndricas}
+	\begin{figure}[H]
+		\caption{Coordenadas cilíndricas}
+		\label{coordenadas_cilindricas}
+		\centering
+		\includegraphics[width=0.5\textwidth]{coordenadas_cilindricas.png}		
+	\end{figure}
+	
+	$$r \in [0, \infty),\, \theta \in [0,\, 2\pi]$$
+	
+	\begin{table}[H]
+		\caption{Transformação de coordenadas cartesinas em cilíndricas}
+		\label{transformacao_coordenadas_cartesianas_cilindricas}
+		\centering		
+		\begin{tabular}{|lcl|}
+			$x$ & $=$ & $r\,\cos(\theta)$ \\
+			$y$ & $=$ & $r\,\sen(\theta)$ \\
+			$z$ & $=$ & $z$
+		\end{tabular}		
+	\end{table}
+	\begin{table}[H]
+		\caption{Coordenadas cilíndricas a partir das suas correspondentes cartesianas}
+		\label{correpondentes_coordenadas_cartesianas_cilindricas}
+		\centering		
+		\begin{tabular}{|lcl|}
+			$r^2$ & $=$ & $x^2 + y^2$                       \\
+			$\theta$   & $=$ & $\arctg\left(\dfrac{y}{x}\right)$
+		\end{tabular}		
+	\end{table}
+	
+	\begin{equation*}
+		\iiint_R f(x,y,z)\, dv = \iiint_R f(x,y,z)\, dxdydz = \iiint_R f(r\,\cos(\theta),\,r\,\sen(\theta),z) r\,dr d\theta dz
+	\end{equation*}
+	
+\section{Coordenadas esféricas}
 	
 	\begin{figure}[H]
 		\caption{Coordenadas esféricas}
@@ -84,29 +118,29 @@
 		\includegraphics[width=0.5\textwidth]{coordenadas_esfericas.png}		
 	\end{figure}
 	
-	$$r \in [0, \infty),\, \varphi \in [0,\, \pi],\, \theta \in [0,\, 2\pi]$$
+	$$r \in [0, \infty),\, \theta \in [0,\, 2\pi],\, \varphi \in [0,\, \pi]$$
 	
 	\begin{table}[H]
 		\caption{Transformação de coordenadas cartesinas em esféricas}
 		\label{transformacao_coordenadas_cartesianas_esfericas}
 		\centering		
-		\begin{tabular}{|lclclcl|}
-			$\sen(\varphi)\cos(\theta)$ & $=$ & $\dfrac{x}{r}$ & $\Rightarrow$ & $x$ & $=$ & $r\,\sen(\varphi)\cos(\theta)$ \\
-			$\sen(\varphi)\sen(\theta)$ & $=$ & $\dfrac{y}{r}$ & $\Rightarrow$ & $y$ & $=$ & $r\,\sen(\varphi)\sen(\theta)$ \\
-			$\cos(\varphi)$             & $=$ & $\dfrac{z}{r}$ & $\Rightarrow$ & $z$ & $=$ & $r\,\cos(\varphi)$
+		\begin{tabular}{|lcl|}
+			$x$ & $=$ & $r\,\sen(\varphi)\cos(\theta)$ \\
+			$y$ & $=$ & $r\,\sen(\varphi)\sen(\theta)$ \\
+			$z$ & $=$ & $r\,\cos(\varphi)$
 		\end{tabular}		
 	\end{table}	
 	\begin{table}[H]
 		\caption{Coordenadas esféricas a partir das suas correspondentes cartesianas}
 		\label{correpondentes_coordenadas_cartesianas_esfericas}
 		\centering		
-		\begin{tabular}{|lclclcl|}
-			$x^2 + y^2 + z^2$ & $=$ & $r^2$                         & $\Rightarrow$ & $r$       & $=$ & $\sqrt{x^2 + y^2 + z^2}$                         \\
-			$\tg(\theta)$     & $=$ & $\dfrac{y}{x}$                & $\Rightarrow$ & $\theta$  & $=$ & $\arctg\left(\dfrac{y}{x}\right)$                \\
-			$\tg(\varphi)$    & $=$ & $\dfrac{\sqrt{x^2 + y^2}}{z}$ & $\Rightarrow$ & $\varphi$ & $=$ & $\arctg\left(\dfrac{\sqrt{x^2 + y^2}}{z}\right)$
+		\begin{tabular}{|lcl|}
+			$r^2$     & $=$ & $x^2 + y^2 + z^2$                                \\
+			$\theta$  & $=$ & $\arctg\left(\dfrac{y}{x}\right)$                \\
+			$\varphi$ & $=$ & $\arctg\left(\dfrac{\sqrt{x^2 + y^2}}{z}\right)$
 		\end{tabular}		
 	\end{table}
 	
-	\begin{align*}
-		v = \iiint_{R(x,y,z)} f(x,y,z)\, dxdydz =\\ \iiint_{R(r,\theta,\varphi)} f(r\,\sen(\varphi)\cos(\theta),\, r\,\sen(\varphi)\sen(\theta),\, r\,\cos(\varphi))\, r^2\sen(\varphi)\, dr d\varphi d\theta
-	\end{align*}
+	\begin{gather*}
+		\iiint_R f(x,y,z)\, dv =\iiint_R f(x,y,z)\, dxdydz =\\ \iiint_R f(r\,\sen(\varphi)\cos(\theta),\, r\,\sen(\varphi)\sen(\theta),\, r\,\cos(\varphi))\, r^2\sen(\varphi)\, dr d\varphi d\theta
+	\end{gather*}
