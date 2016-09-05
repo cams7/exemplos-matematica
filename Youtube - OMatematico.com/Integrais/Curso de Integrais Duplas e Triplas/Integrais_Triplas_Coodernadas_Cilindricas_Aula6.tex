@@ -1,0 +1,25 @@
+\begin{enumerate}
+	\item Exercício retirado da página 1023 de \cite{James_Stewart_calculo_v2}
+	
+	Calcule a integral abaixo onde $E$ é a região dada abaixo.
+	
+	\begin{equation*}
+		\iiint_E \sqrt{x^2 + y^2}\, dv
+	\end{equation*}
+	\begin{equation*}
+		x^2 + y^2 \leq 16,\, -5 \leq z \leq 4
+	\end{equation*}
+	
+	\begin{equation*}
+		x^2 + y^2 = r^2 = 4^2 = 16
+	\end{equation*}
+	\begin{equation*}
+		0 \leq r \leq 4,\, 0 \leq \theta \leq 2\pi,\, -5 \leq z \leq 4
+	\end{equation*}
+	\begin{equation*}
+		\sqrt{x^2 + y^2} = \sqrt{r^2} = r
+	\end{equation*}
+	\begin{gather*}
+		\int_0^4 \int_0^{2\pi} \int_{-5}^4 r^2\, dz d\theta dr = \int_0^4 r^2\, dr \int_0^{2\pi} d\theta \int_{-5}^4 dz = \left[\dfrac{r^3}{3}\right]_0^4 \left[\theta\right]_0^{2\pi} \left[z\right]_{-5}^4 = \dfrac{64}{3}2\pi(4 + 5) =\\ \dfrac{64}{3} 9\cdot 2\pi = 384\pi
+	\end{gather*}
+\end{enumerate}
